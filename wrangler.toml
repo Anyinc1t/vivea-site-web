@@ -1,0 +1,24 @@
+# Configuration Cloudflare Pages
+# Ce fichier configure les variables d'environnement et les paramètres
+
+[env.production]
+# Variables d'environnement pour la production
+# Ces variables doivent être configurées dans le dashboard Cloudflare Pages
+
+# Email de contact principal
+CONTACT_EMAIL = "contact@vivea.ca"
+FROM_EMAIL = "noreply@vivea.ca"
+
+# Service d'email (choisir un des deux)
+# Option 1: Resend.com (recommandé)
+# RESEND_API_KEY = "re_VOTRE_CLE_API_RESEND"
+
+# Option 2: SendGrid
+# SENDGRID_API_KEY = "SG.VOTRE_CLE_API_SENDGRID"
+
+# Stockage KV (optionnel)
+# VIVEA_KV = "VIVEA_REQUESTS"
+
+[env.development]
+CONTACT_EMAIL = "test@vivea.local"
+FROM_EMAIL = "noreply@vivea.local"

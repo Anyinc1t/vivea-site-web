@@ -1,0 +1,27 @@
+{
+  "name": "vivea-filtration-site",
+  "version": "1.0.0",
+  "description": "Site web professionnel pour Vivéa Solutions de Filtration d'Eau",
+  "main": "index.html",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages publish",
+    "preview": "wrangler pages dev --local"
+  },
+  "keywords": [
+    "vivea",
+    "filtration",
+    "eau",
+    "cloudflare",
+    "pages",
+    "serverless"
+  ],
+  "author": "Vivéa Solutions",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

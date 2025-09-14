@@ -1,0 +1,7 @@
+# Cloudflare Pages - Redirects et Règles
+
+# Redirection pour les formulaires vers Cloudflare Workers (optionnel)
+/api/submit-form  /api/submit-form  200
+
+# Redirection par défaut vers index.html pour SPA
+/*  /index.html  200
